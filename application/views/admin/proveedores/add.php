@@ -31,6 +31,10 @@
                                 <label for="razon_social">Razon social:</label>
                                 <input type="text" class="form-control" id="razon_social" name="razon_social">
                             </div>
+                            <!-- <div class="form-group">
+                                <label for="condicionIva">Condicion Iva:</label>
+                                <input type="text" class="form-control" id="condicionIva" name="condicionIva">
+                            </div> -->
                             <div class="form-group">
                                 <label for="cuit">CUIT:</label>
                                 <input type="text" class="form-control" id="cuit" name="cuit">
@@ -41,7 +45,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail:</label>
-                                <input type="text" class="form-control" id="email" name="email">
+                                <input type="email" class="form-control" id="email" name="email">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success btn-flat">Guardar</button>

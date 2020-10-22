@@ -30,6 +30,7 @@ class Proveedores extends CI_Controller {
 	public function store(){
 		$nombre = $this->input->post("nombre");
 		$razon_social = $this->input->post("razon_social");
+		// $condicion_iva = $this->input->post('condicionIva');
 		$cuit = $this->input->post("cuit");
 		$telefono = $this->input->post("telefono");
 		$email = $this->input->post("email");
@@ -70,8 +71,9 @@ class Proveedores extends CI_Controller {
 		$cuit = $this->input->post("cuit");
 		$telefono = $this->input->post("telefono");
 		$email = $this->input->post("email");
+
 		$data  = array(
-            'nombre' => $nombre,
+      'nombre' => $nombre,
 			'razon_social' => $razon_social,
 			'cuit' => $cuit,
 			'telefono' => $telefono,
